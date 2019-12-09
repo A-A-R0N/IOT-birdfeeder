@@ -7,9 +7,10 @@ Follow steps at https://www.tensorflow.org/install/gpu for installing CUDA Toolk
 Download image data using https://github.com/EscVM/OIDv4_ToolKit selecting squirrel and bird classes.
 
 Install requirements
-Create virtual environemnt - https://programwithus.com/learn-to-code/Pip-and-virtualenv-on-Windows/
+Create virtual environment - https://programwithus.com/learn-to-code/Pip-and-virtualenv-on-Windows/
+```
 pip install -r training_requirements.txt
-
+```
 ## Rasperry Pi Setup
 
 ### Linux packages Installation
