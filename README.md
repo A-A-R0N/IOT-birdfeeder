@@ -40,7 +40,7 @@ sudo find / -type f -name '*atom*.so*'
 ```
 The result will have to be added to the startup command as the LD_PRELOAD value. On my machine this was:  
 ```
-LD_PRELOAD=/usr/lib/arm-linux-gnueabihf/libatomic.so.1.2.0 python3 bs_cnn_test.py  
+LD_PRELOAD=/usr/lib/arm-linux-gnueabihf/libatomic.so.1.2.0 python3 bs_camera_test.py  
 ```
 You will still need to run this from the venv shell: 
 ```
